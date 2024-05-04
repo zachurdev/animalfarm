@@ -53,3 +53,20 @@ src/server/package.json (Line 6)
   }
 }
 ```
+> Write server code server/index.js
+```bash
+cd ~/src/zachurdev/animalfarm/server/
+node .
+```
+> Test server code via `http://localhost:{PORT_NUMBER}/?q={SEARCH_TERM}`
+> Write frontend code src/App.jsx
+> Serve backend
+```bash
+cd ~/src/zachurdev/animalfarm/server/
+node .
+```
+> Serve frontend
+```bash
+cd ~/src/zachurdev/animalfarm/
+npm run dev
+```
