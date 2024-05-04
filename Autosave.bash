@@ -1,13 +1,10 @@
 #!/bin/bash
 
-TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-echo "$TIMESTAMP"
+TIMESTAMP=$(date -u +"%Y%m%dT%H%M%SZ")
 
 SCRIPT_DIR="$(dirname "$(realpath "$0")")"
-echo "$SCRIPT_DIR"
 
-cd "$SCRIPT_PATH" || exit
-pwd
+cd "$SCRIPT_PATH"
 
 git add .
 
